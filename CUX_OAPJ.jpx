@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='GBK' ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+
+<JboProject
+   Name="CUX_OAPJ"
+   SeparateXMLFiles="true"
+   PackageName="" >
+   <DesignTime>
+      <Attr Name="_appModuleNames26" Value="test.oracle.apps.ak.show.server.TestAM" />
+      <Attr Name="_appModuleNames25" Value="oracle.apps.fnd.framework.toolbox.samplelib.server.SampleBrowserAM" />
+      <Attr Name="_appModuleNames24" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.DebugALabAM" />
+      <Attr Name="_appModuleNames23" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.FlexfieldAM" />
+      <Attr Name="_appModuleNames22" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.EmployeeAM" />
+      <Attr Name="_appModuleNames21" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.SupplierSAM" />
+      <Attr Name="_appModuleNames20" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.HomeAM" />
+      <Attr Name="_ejbPackage" Value="false" />
+      <Attr Name="_NamedConnection" Value="DEV6T" />
+      <Attr Name="_appModuleNames19" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.DebugBLabAM" />
+      <Attr Name="_appModuleNames18" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.DebugLabAM" />
+      <Attr Name="_appModuleNames17" Value="oracle.apps.fnd.framework.toolbox.labsolutions.server.GanttAM" />
+      <Attr Name="_appModuleNames16" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.HelloWorldAM" />
+      <Attr Name="_appModuleNames15" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.UpdateAM" />
+      <Attr Name="_appModuleNames14" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.DeleteAM" />
+      <Attr Name="_appModuleNames13" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.HomeAM" />
+      <Attr Name="_appModuleNames12" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.PoSummaryAM" />
+      <Attr Name="_appModuleNames11" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.MultistepCreateAM" />
+      <Attr Name="_appModuleNames10" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.PurchaseOrderSAM" />
+      <Attr Name="_version" Value="10.1.3.41.57" />
+      <Attr Name="_appModuleNames9" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.CreateAM" />
+      <Attr Name="_appModuleNames8" Value="oracle.apps.fnd.framework.toolbox.tutorial.server.SearchAM" />
+      <Attr Name="_appModuleNames7" Value="oracle.apps.fnd.framework.toolbox.lov.server.TutorialLOVAM" />
+      <Attr Name="_appModuleNames6" Value="oracle.apps.fnd.framework.toolbox.lov.server.LabSolutionsLOVAM" />
+      <Attr Name="_appModuleNames5" Value="oracle.apps.fnd.framework.toolbox.schema.server.EmployeeVAM" />
+      <Attr Name="_appModuleNames4" Value="oracle.apps.fnd.framework.toolbox.schema.server.SupplierVAM" />
+      <Attr Name="_appModuleNames3" Value="oracle.apps.fnd.framework.toolbox.schema.server.PurchaseOrderVAM" />
+      <Attr Name="_appModuleNames2" Value="BQC.oracle.apps.ak.crystal.server.CrystalAM" />
+      <Attr Name="_jprName" Value="CUX_OAPJ.jpr" />
+      <Attr Name="_appModuleNames1" Value="BQC.oracle.apps.ak.lov.server.LabsLovAM" />
+      <Attr Name="_appModuleNames0" Value="cux.oracle.apps.ap.oie.server.ImportExcelAM" />
+      <Attr Name="_appModuleNames27" Value="Show.oracle.apps.ak.show.server.TestAM" />
+   </DesignTime>
+   <Containee
+      Name="server"
+      FullName="BQC.oracle.apps.ak.crystal.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="BQC.oracle.apps.ak.lov.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="BQC.oracle.apps.ak.poplist.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="cux.oracle.apps.ap.oie.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="mycompany.oracle.apps.fnd.framework.toolbox.schema.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="mycompany.oracle.apps.fnd.framework.toolbox.tutorial.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.labsolutions.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.lov.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.poplist.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.samplelib.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.schema.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="oracle.apps.fnd.framework.toolbox.tutorial.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="Show.oracle.apps.ak.show.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+   <Containee
+      Name="server"
+      FullName="test.oracle.apps.ak.show.server.server"
+      ObjectType="JboPackage" >
+   </Containee>
+</JboProject>

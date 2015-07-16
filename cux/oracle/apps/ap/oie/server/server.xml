@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='GBK' ?>
+<!DOCTYPE JboPackage SYSTEM "jbo_03_01.dtd">
+
+<JboPackage
+   Name="server"
+   SeparateXMLFiles="true"
+   PackageName="cux.oracle.apps.ap.oie.server" >
+   <DesignTime>
+      <Attr Name="_ejbPackage" Value="false" />
+      <Attr Name="_version" Value="10.1.3.41.57" />
+   </DesignTime>
+   <Containee
+      Name="CUXCSVVO"
+      FullName="cux.oracle.apps.ap.oie.server.CUXCSVVO"
+      ObjectType="ViewObject" >
+   </Containee>
+   <Containee
+      Name="CUXEO"
+      FullName="cux.oracle.apps.ap.oie.server.CUXEO"
+      ObjectType="Entity" >
+   </Containee>
+   <Containee
+      Name="ImportExcelAM"
+      FullName="cux.oracle.apps.ap.oie.server.ImportExcelAM"
+      ObjectType="AppModule" >
+   </Containee>
+   <Containee
+      Name="ImportExcelVO"
+      FullName="cux.oracle.apps.ap.oie.server.ImportExcelVO"
+      ObjectType="ViewObject" >
+   </Containee>
+</JboPackage>

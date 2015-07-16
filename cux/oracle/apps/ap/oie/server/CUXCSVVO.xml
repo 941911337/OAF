@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='GBK' ?>
+<!DOCTYPE ViewObject SYSTEM "jbo_03_01.dtd">
+
+<ViewObject
+   Name="CUXCSVVO"
+   BindingStyle="Oracle"
+   CustomQuery="true"
+   RowClass="cux.oracle.apps.ap.oie.server.CUXCSVVORowImpl"
+   ComponentClass="cux.oracle.apps.ap.oie.server.CUXCSVVOImpl"
+   UseGlueCode="false" >
+   <SQLQuery><![CDATA[
+SELECT CUXEO.BATCH_ID, 
+       CUXEO.EMPLOYEE_ID, 
+       CUXEO.EMPLOYEE_NAME, 
+       CUXEO.EMAIL_ADDRESS, 
+       CUXEO.POSITION, 
+       CUXEO.CREATED_BY, 
+       CUXEO.CREATION_DATE, 
+       CUXEO.LAST_UPDATED_BY, 
+       CUXEO.LAST_UPDATE_DATE, 
+       CUXEO.LAST_UPDATE_LOGIN, 
+       CUXEO.ROWID
+FROM CUX_CSV_IMPORT_TEST CUXEO
+   ]]></SQLQuery>
+   <DesignTime>
+      <Attr Name="_isCodegen" Value="true" />
+      <Attr Name="_isExpertMode" Value="true" />
+      <Attr Name="_version" Value="10.1.3.41.57" />
+      <Attr Name="_codeGenFlag2" Value="Access|Coll|VarAccess" />
+   </DesignTime>
+   <EntityUsage
+      Name="CUXEO"
+      Entity="cux.oracle.apps.ap.oie.server.CUXEO" >
+      <DesignTime>
+         <Attr Name="_queryClause" Value="false" />
+      </DesignTime>
+   </EntityUsage>
+   <ViewAttribute
+      Name="BatchId"
+      EntityAttrName="BatchId"
+      EntityUsage="CUXEO"
+      AliasName="BATCH_ID" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="EmployeeId"
+      EntityAttrName="EmployeeId"
+      EntityUsage="CUXEO"
+      AliasName="EMPLOYEE_ID" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="EmployeeName"
+      EntityAttrName="EmployeeName"
+      EntityUsage="CUXEO"
+      AliasName="EMPLOYEE_NAME" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="EmailAddress"
+      EntityAttrName="EmailAddress"
+      EntityUsage="CUXEO"
+      AliasName="EMAIL_ADDRESS" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="Position"
+      EntityAttrName="Position"
+      EntityUsage="CUXEO"
+      AliasName="POSITION" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="CreatedBy"
+      EntityAttrName="CreatedBy"
+      EntityUsage="CUXEO"
+      AliasName="CREATED_BY" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="CreationDate"
+      EntityAttrName="CreationDate"
+      EntityUsage="CUXEO"
+      AliasName="CREATION_DATE" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LastUpdatedBy"
+      EntityAttrName="LastUpdatedBy"
+      EntityUsage="CUXEO"
+      AliasName="LAST_UPDATED_BY" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LastUpdateDate"
+      EntityAttrName="LastUpdateDate"
+      EntityUsage="CUXEO"
+      AliasName="LAST_UPDATE_DATE" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="LastUpdateLogin"
+      EntityAttrName="LastUpdateLogin"
+      EntityUsage="CUXEO"
+      AliasName="LAST_UPDATE_LOGIN" >
+   </ViewAttribute>
+   <ViewAttribute
+      Name="RowID"
+      IsUpdateable="false"
+      EntityAttrName="RowID"
+      EntityUsage="CUXEO"
+      AliasName="ROWID" >
+   </ViewAttribute>
+</ViewObject>
